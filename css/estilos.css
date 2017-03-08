@@ -19,3 +19,13 @@ body{
   padding: 10px;
 
 }
+.jumbotron-img{
+  float: right;
+  text-align: center;
+}
+.jumbotron-text{
+  text-indent: inherit;
+}
+input{
+  margin-bottom: 0;
+}
