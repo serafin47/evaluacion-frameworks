@@ -17,15 +17,38 @@ header{
 }
 body{
   padding: 10px;
+  background-color: black;
 
 }
-.jumbotron-img{
-  float: right;
-  text-align: center;
+.content{
+  padding: 15px;
+  background-color: grey;
+
 }
-.jumbotron-text{
-  text-indent: inherit;
 }
 input{
   margin-bottom: 0;
+}
+.contenido{
+  /*background-color: grey;*/
+  border-radius: 10px;
+
+}
+.glyphicon{
+  font-size: 50px;
+}
+.media-object{
+  padding: 10px;
+}
+.buscador{
+  /*background-color: blue;*/
+  border-radius: 10px;
+  padding: 5px;
+}
+.list-group{
+  /*background-color: blue;*/
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+
 }
