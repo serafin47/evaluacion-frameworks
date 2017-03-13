@@ -1,0 +1,15 @@
+.slogan{
+  text-align: right;
+}
+.button{
+  text-align: right;
+}
+.cuerpo{
+  padding: 20px;
+  background-image: url("https://static.pexels.com/photos/6894/summer-photographer-pier-adventure-large.jpg");
+}
+.container{
+
+  background-color: rgba(211,211,211,0.3);
+
+}
