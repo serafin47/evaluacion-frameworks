@@ -7,17 +7,18 @@
     <title>Blog Gastronomia</title>
     <link rel="stylesheet" href="css/css/foundation.css">
     <link rel="stylesheet" href="css/css/app.css">
-    <link rel="stylesheet" href="css/gastro.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
   </head>
-  <body class="cuerpo">
+  <body>
+<div class="cuerpo">
 <div class="container">
 <div class="row">
- <div class="large-4 columns"><h1>chef picolo</h1>
+ <div class="small-12 medium-4 large-4 columns"><h1>chef picolo</h1>
 <h3 class="text-right">el gueso</h3>
 </div>
 </div>
-    <div class="row medium-uncollapse large-uncollapse">
-      <div class="large-4 columns">
+    <div class="row">
+      <div class="small-12 medium-4 large-4 columns">
         <ul class="menu">
               <li><input type="search" placeholder="Buscar"></li>
               <li><button type="button" class="button">Buscar</button></li>
@@ -28,7 +29,7 @@
         <li><a href="#">Mis Resetas</a></li>
         <li><a href="#"></a></li>
       </ul>
-              <div class="">
+              <div class="row">
                       <h3>Favoritos:</h3>
                       <hr>
                       <div class="row large-uncollapse">
@@ -90,6 +91,7 @@
                         </div>
                       </div>
                     </div>
+                    <hr>
                     <h3>Historial:</h3>
                     <ul class="tabs vertical" data-update-history="true" data-tabs id="deeplinked-tabs">
                       <li class="tabs-title is-active"><a href="#panel1d" aria-selected="true">historial1</a></li>
@@ -114,35 +116,38 @@
                     </div>
 
         </div>
-  <div class="large-8 columns collapse">
+  <div class="small-12 medium-8 large-8 columns ">
     <div class="">
   <h2>Titulo</h2>
   <h6><small>27/2/16</small></h6>
+  <hr>
   <img class="thumbnail" src="img/comida1.jpg" alt="">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <label>
-  <textarea placeholder="Comentario"></textarea>
-  <button type="submit" name="enviar" class="button float-right">Enviar <i class="step fi-magnifying-glass"></i></button>
-</label>
+  <div class="row collpase">
+    <i class="fi-torso"></i>
+  <textarea class="small-12 medium-10 large-10 columns" placeholder="Comentario"></textarea>
+  <button type="submit" name="enviar" class="button">Enviar</button>
+</div>
 <br>
 </div>
 <div class="">
 <h2>Titulo</h2>
 <h6><small>27/2/16</small></h6>
+<hr>
 <img class="thumbnail" src="img/gastrono.jpg" alt="">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<label>
+<div class="row collapse">
+<i class="fi-torso"></i>
+<textarea class="small-12 medium-10 large-10 columns" placeholder="Comentario"></textarea>
+<button type="submit" name="enviar" class="button rounded">Enviar</button>
 
-<textarea placeholder="Comentario"></textarea>
-<button type="submit" name="enviar" class="button float-right">Enviar</button>
-
-</label>
+</div>
 </div>
     </div>
       </div>
     </div>
 
-
+</div>
 
 
 

@@ -6,10 +6,17 @@
 }
 .cuerpo{
   padding: 20px;
-  background-image: url("https://static.pexels.com/photos/6894/summer-photographer-pier-adventure-large.jpg");
+  background: url("../../img/hambu.jpg")no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .container{
 
   background-color: rgba(211,211,211,0.3);
+
+}
+.fi-torso{
+  font-size: 48px;
+float: left;
 
 }
