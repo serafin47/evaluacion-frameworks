@@ -2,10 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link  rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
      <link rel="stylesheet" href="css/turismo.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>Turismo</title>
   </head>
   <body>
@@ -27,34 +28,38 @@
           </div>
 
         </div>
-        <div class="s1 m1 l1 col teal accent-2 columna-grupos">
-      <div class="collection">
-        <a href="#" class="collection-item">
+        <div class="s1 m1 l1 col columna-grupos">
+      <div class="redes-sociales">
+        <h5 class="white-text">Redes</h5>
+        <ul>
+        <li><a href="#" class="">
           <img src="img/instagram.png" alt="" class="circle">
-        </a>
-        <a href="#" class="collection-item">
-          <img src="img/facebook.png" alt="google" class="circle">
-         </a>
-        <a href="#" class="collection-item">
-          <img src="img/instagram.png" alt="instagram" class="circle">
-        </a>
-        <a href="#" class="collection-item">
-          <img src="img/gorjeo.png" alt="tweeter" class="circle">
-        </a>
-        <a href="#" class="collection-item">
-          <img src="img/facebook.png" alt="facebook" class="circle">
-        </a>
+        </a></li>
+        <br>
+        <li><a href="#" class="">
+          <img src="img/facebook.png" alt="" class="circle">
+        </a></li>
+        <br>
+        <li><a href="#" class="">
+          <img src="img/gorjeo.png" alt="" class="circle">
+        </a></li>
+        <br>
+        <li><a href="#" class="">
+          <img src="img/linkedin.png" alt="" class="circle">
+        </a></li>
+        <br>
+      </ul>
       </div>
       </div>
       <div class="img-centro l11 col">
-      <div class="l3 col">
+      <div class="l3 m3 s12 col">
       <img class="img-centro z-depth-2" src="img/playa1.jpg" alt="playa1">
       <img class="img-centro z-depth-2" src="img/playa2.jpg" alt="playa2">
       </div>
-      <div class="l3 col">
+      <div class="l3 m3 s12 col">
         <img height="450" class="img-centro z-depth-4" src="img/playa3.jpg" alt="playa3">
       </div>
-      <div class="l3 col">
+      <div class="l3 m3 s12 col">
         <img class="img-centro z-depth-5" src="img/playa4.jpg" alt="playa4">
         <img height="325" class="img-centro z-depth-5" src="img/playa5.jpg" alt="playa5">
       </div>
@@ -62,21 +67,80 @@
 
       <div class="row">
       <div class="col l8 container2">
-      <div class="row col l12">
-        <h3>Punta Cana</h3>
+      <div class="row col l12 m12 s12">
+        <h3 class="deep-orange-text text-darken-2">Punta Cana</h3>
       <div class="chip">
         <img src="img/playa1.jpg" alt="">
         1 de marzo 2017
       </div>
       </div>
-      <div class="col l5">
+      <div class="col l5 m5 s12">
         <img class="img-entrada" src="img/playa3.jpg" alt="">
       </div>
-      <div class="col l7">
-        <p><strong>Punta Cana</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col l7 m7 s12">
+        <p class="white-text"><strong>Punta Cana</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <div class="col l12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <!--hasta aqui voy bien-->
+      <div class="input-field card col l12 s12 m12">
+        <form>
+          <div class="input-field">
+            <i class="material-icons prefix">perm_identity</i>
+            <input type="text" id="name">
+            <label for="nombre">Nombre / Apellidos</label>
+          </div>
+          <div class="input-field l6 s12 m12 col">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email" class="validate">
+            <label for="email" data-success="Aceptado" data-error="Debes completar este campo">E-mail</label>
+            </div>
+            <div class="input-field l6 m6 s12 col">
+              <i class="material-icons prefix">date_range</i>
+              <input type="date" id="birthday" class="validate">
+              <label class="naci" for="date" data-success="Aceptado" data-error="debes completar este campo">Nacimiento</label>
+            </div>
+            <div class="input-field l12 s12 m12 col">
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2">Texto</label>
+            </div>
+
+          <div class="input-field right">
+            <button type="submit" name="enviar" class="btn indigo darken-4">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col l4 m4 s12 perfil_container">
+  <div class="col l12 center">
+  <img src="img/bbad.png" alt="" class="fotoperfil circle">
+  </div>
+  <div class="col l12 s12 center">
+  <h5 class="perfil_titulo deep-orange-text text-darken-2">Perfil del Autor</h5>
+  <p class="texto_perfil light-blue-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </div>
+</div>
+  </div>
+      <!--desde-->
+      <div class="row">
+      <div class="col l8 container2">
+      <div class="row col l12 s12">
+        <h3 class="deep-orange-text text-darken-2">Terrenas</h3>
+      <div class="chip">
+        <img src="img/playa3.jpg" alt="">
+        4 de marzo 2017
+      </div>
+      </div>
+
+      <div class="col l7 m7 s12">
+        <p class="white-text pta"><strong>Terrenas</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="col l5 m5 s12">
+        <img class="blog2" src="img/playa4.jpg" alt="">
+      </div>
+      <div class="col l12 s12">
+        <p class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
       <!--hasta aqui voy bien-->
       <div class="input-field card col l12 s12 m12">
@@ -106,63 +170,10 @@
           </div>
         </form>
       </div>
-      <div class="row col l12 titulo-entrada2">
-        <h3>Terrenas</h3>
-      <div class="chip">
-        <img src="img/playa1.jpg" alt="">
-        1 de Marzo 2017
-      </div>
-      </div>
-      <div class="col l8">
-        <img class="img-entrada" src="img/playa4.jpg" alt="">
-      </div>
-      <div class="col l7">
-        <p><strong>Terrenas</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </br>
-        </br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="col l12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="input-field card col l12 s12 m12">
-        <form>
-          <div class="input-field">
-            <i class="material-icons prefix">perm_identity</i>
-            <input type="text" id="name">
-            <label for="nombre">Nombre / Apellidos</label>
-          </div>
-          <div class="input-field l6 s12 m12 col">
-            <i class="material-icons prefix">email</i>
-            <input type="email" id="email" class="validate">
-            <label for="email" data-success="Aceptado" data-error="Debes completar este campo">E-mail</label>
-            </div>
-            <div class="input-field l6 col">
-              <i class="material-icons prefix">date_range</i>
-              <input type="date" id="birthday" class="validate">
-              <label class="naci" for="date" data-success="Aceptado" data-error="debes completar este campo">Nacimiento</label>
-            </div>
-            <div class="input-field l12 s12 m12 col">
-              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-              <label for="icon_prefix2">Texto</label>
-            </div>
-
-          <div class="input-field right">
-            <button type="submit" name="enviar" class="btn indigo darken-4">Enviar</button>
-          </div>
-        </div>
-        </div>
-        <div class="col l4 perfil_container">
-      <div class="col l12 center">
-      <img src="img/bbad.png" alt="" class="fotoperfil circle">
-      </div>
-      <div class="col l12 center">
-      <h5 class="perfil_titulo">Perfil del Autor</h5>
-      <p class="texto_perfil">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
+    </div>
 </div>
+  </div>
 
-        </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
