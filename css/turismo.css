@@ -1,5 +1,6 @@
 body{
-  background: url(../img/fotobody.jpg);
+  /*background: url(../img/fotobody.jpg);*/
+  background-image: url(../img/fotobody.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -31,8 +32,15 @@ body{
 /*.circle{
   width: 50%;
 }*/
-@media only screen and (max-width: 480px) {
-        body{
-          background-color: black;
-        }
-	}
+@media (min-width: 360px){
+   body{
+       background-color: black;
+     }
+     .logo{
+       text-align: center;
+     }
+     .menu-slogan{
+       text-align: center;
+     }
+
+}
